@@ -37,21 +37,26 @@ food_delivery_analysis/
 │
 ├── Backend/
 │ ├── routes/
-│ │ └── analytics.js
-│ ├── db.js
-│ ├── server.js
-│ ├── food_delivery.sql
-│ └── package.json
+│ │ └── analytics.js # Contains SQL query routes for data analytics
+│ ├── db.js # MySQL database connection
+│ ├── server.js # Express server setup
+│ ├── food_delivery.sql # Sample database schema and data
+│ └── package.json # Backend dependencies
 │
 ├── Frontend/
 │ ├── public/
+│ │ └── index.html # HTML entry point
 │ ├── src/
 │ │ ├── components/
-│ │ │ └── Dashboard.js
-│ │ ├── App.js
-│ │ ├── api.js
-│ │ ├── index.js
-│ │ └── styles.css
+│ │ │ └── Dashboard.js # Displays analytics data from backend
+│ │ ├── App.js # Main React app structure
+│ │ ├── api.js # Handles API requests
+│ │ ├── index.js # React entry point
+│ │ └── styles.css # Styling for the frontend
+│ └── package.json # Frontend dependencies
+│
+└── README.md # Project documentation
+│ │ 
 │ └── package.json
 │
 └── README.md
